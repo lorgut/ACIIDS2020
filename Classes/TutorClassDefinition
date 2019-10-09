@@ -1,0 +1,8 @@
+### Class Tutor 
+
+class Tutor(db.Model):
+    name=db.StringProperty()
+    surname=db.StringProperty()
+    date=db.DateProperty() #Birthday
+    department=db.StringProperty()
+    title=db.StringProperty()

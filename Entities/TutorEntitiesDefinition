@@ -1,0 +1,22 @@
+### Entities of class Tutor 
+
+helen = Tutor(key_name = 'Helen', name = 'Helen', surname = 'Smith', date = datetime.date(year=1953, month=12, day=27), department = 'Computer Science and Engineering', title = 'Science')
+helen.put()
+walter = Tutor(key_name = 'Walter', name = 'Walter', surname = 'White', date = datetime.date(year=1963, month=10, day=12), department = 'Business Studies', title = 'Economy')
+walter.put()
+litz = Tutor(key_name = 'Litz', name = 'Litz', surname = 'Brown', date = datetime.date(year=1983, month=10, day=25), department = 'Computer Science', title = 'Computer Science', parent=helen)
+litz.put()
+teresa = Tutor(key_name = 'Teresa', name = 'Teresa', surname = 'Lisbon', date = datetime.date(year=1965, month=05, day=30), department = 'Marketing', title = 'Publicity')
+teresa.put()
+john = Tutor(key_name = 'John', name = 'John', surname = 'Red', date = datetime.date(year=1949, month=02, day=15), department = 'Marketing', title = 'Marketing and Business')
+john.put()
+jessie = Tutor(key_name = 'Jessie', name = 'Jessie', surname = 'Pickman', date = datetime.date(year=1970, month=03, day=04), department = 'Business Studies', title = 'Marketing and Business', parent=walter)
+jessie.put()
+patrick = Tutor(key_name = 'Patrick', name = 'Patrick', surname = 'Jane', date = datetime.date(year=1960, month=11, day=04), department = 'Marketing', title = 'Publicity', parent=teresa)
+patrick.put()
+carol = Tutor(key_name = 'Carol', name = 'Carol', surname = 'Taylor', date = datetime.date(1973, month=05, day=06), department = 'Computer Science', title = 'Computer Science')
+carol.put()
+albert = Tutor(key_name = 'Albert', name = 'Albert', surname = 'Lamb', date = datetime.date(year=1973, month=03, day=04), department = 'Computer Science', title = 'Computer Science', parent=helen)
+albert.put()
+
+TutorList = [helen, walter, litz, teresa, john, jessie, patrick, carol, albert]

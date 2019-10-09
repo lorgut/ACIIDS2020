@@ -1,0 +1,16 @@
+### Entities of class FinalProject 
+
+sTASheldom = FinalProject(key_name = 'STASheldom', title = 'String theory aplication', name = 'Sheldom', surname = 'Cooper', read = True, date = datetime.date(year=2012, month=04, day=23), mark = 10.0, pages = 250, parent=sheldom)
+sTASheldom.put()
+aMPVPIan = FinalProject(key_name = 'AMPVPIan', title = 'A marketing point of view for a product', name = 'Ian', surname = 'Ritchie', pages = 100, parent=ian)
+aMPVPIan.put()
+aGCDebra = FinalProject(key_name = 'AGCDebra', title = 'Algorithms for graph coloring', name = 'Debra', surname = 'Fieguth', read = True, date = datetime.date(year=2013, month=10, day=25), pages = 150, parent=debra)
+aGCDebra.put()
+sPPLAlicia = FinalProject(key_name = 'SPPLAlicia', title = 'Study, packaging and product launch', name = 'Alicia', surname = 'Mant', read = True, date = datetime.date(year=2012, month=11, day=04), mark = 9.0, pages = 100, parent=alicia)
+sPPLAlicia.put()
+cSNLPBAlex = FinalProject(key_name = 'CSNLPBAlex', title = 'Comercial study for a new line of publicity business', name = 'Alex', surname = 'Kay', pages = 90, parent=alex)
+cSNLPBAlex.put()
+mSMWAviva = FinalProject(key_name = 'MSMWAviva', title = 'A Micro-economy study on mobile world', name = 'Aviva', surname = 'Webb', read = True, date = datetime.date(year=2012, month=06, day=13), mark = 8.5, pages = 320, parent=aviva)
+mSMWAviva.put()
+
+FinalProjectList = [sTASheldom, aMPVPIan, aGCDebra, sPPLAlicia, cSNLPBAlex, mSMWAviva]

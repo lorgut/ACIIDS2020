@@ -1,0 +1,10 @@
+### Class FinalProject 
+
+class FinalProject(db.Model):
+    title = db.StringProperty()
+    name = db.StringProperty()    #Author name
+    surname = db.StringProperty() #Author surname
+    read = db.BooleanProperty(default=False)
+    date = db.DateProperty()      #When was read
+    mark = db.FloatProperty()
+    pages = db.IntegerProperty()

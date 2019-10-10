@@ -1,0 +1,1 @@
+SELECT * FROM FinalProject WHERE ANCESTOR IS KEY('Tutor', 'Carol') AND mark <= 10.0 AND mark > 9 

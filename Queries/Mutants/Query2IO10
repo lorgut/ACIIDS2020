@@ -1,2 +1,0 @@
-SELECT * FROM Student WHERE ANCESTOR IS KEY('Tutor', 'Walter') AND grade > 1.0 LIMIT 1, 2
-

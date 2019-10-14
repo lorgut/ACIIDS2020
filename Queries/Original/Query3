@@ -1,1 +1,1 @@
-SELECT * FROM FinalProject WHERE ANCESTOR IS KEY('Tutor', 'Carol') AND pages >= 100 AND pages < 300 ORDER BY pages DESC, name DESC
+SELECT * FROM FinalProject WHERE ANCESTOR IS KEY('Tutor', 'Carol') AND pages >= 100 AND pages < 300 ORDER BY pages DESC, name ASC

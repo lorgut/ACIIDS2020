@@ -1,1 +1,1 @@
-SELECT * FROM Student WHERE ANCESTOR IS KEY('Tutor', 'Walter') AND grade = 3 AND name IN ('Robert', 'Alex', 'Alanis', 'Denis')
+SELECT * FROM Student WHERE ANCESTOR IS KEY('Tutor', 'Walter') AND grade = 4 AND name IN ('Robert', 'Alex', 'Alanis', 'Denis')

@@ -1,2 +1,0 @@
-SELECT *  WHERE ANCESTOR IS KEY('Tutor', 'Walter')
-

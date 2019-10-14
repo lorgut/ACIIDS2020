@@ -1,0 +1,5 @@
+SELECT * FROM Student WHERE ANCESTOR IS KEY('Tutor', 'Walter') AND grade = :2 AND mingrade > :1
+4
+2
+
+

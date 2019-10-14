@@ -1,0 +1,4 @@
+SELECT * FROM Tutor WHERE ANCESTOR IS KEY('Tutor', 'Helen') AND department = 'Computer Science' AND date < DATETIME(:1) AND date > DATETIME(:2)
+'1983-12-15 00:00:00'
+'1972-04-07 00:00:00'
+

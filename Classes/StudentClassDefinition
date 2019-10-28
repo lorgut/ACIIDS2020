@@ -1,0 +1,12 @@
+### Class Student 
+
+class Student(db.Model):
+    name = db.StringProperty()
+    surname = db.StringProperty()
+    date = db.DateProperty() #Birthday
+    title = db.StringProperty()
+    grade = db.IntegerProperty()
+    mingrade = db.IntegerProperty()
+    credits = db.IntegerProperty()
+    average = db.FloatProperty()
+    tutor = db.StringProperty()

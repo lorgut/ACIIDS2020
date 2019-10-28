@@ -1,12 +1,32 @@
-### Class Student 
+### Entities of class Student 
 
-class Student(db.Model):
-    name = db.StringProperty()
-    surname = db.StringProperty()
-    date = db.DateProperty() #Birthday
-    title = db.StringProperty()
-    grade = db.IntegerProperty()
-    mingrade = db.IntegerProperty()
-    credits = db.IntegerProperty()
-    average = db.FloatProperty()
-    tutor = db.StringProperty()
+sheldom = Student(key_name = 'Sheldom', name = 'Sheldom', surname = 'Cooper', date = datetime.date(year=1988, month=12, day=04), title = 'Computer Science', grade = 4, tutor = 'Carol', parent=carol)
+sheldom.put();
+ian = Student(key_name = 'Ian', name = 'Ian', surname = 'Ritchie', date = datetime.date(year=1990, month=06, day=12), title = 'Publicity', grade = 3, tutor = 'Teresa', parent=teresa)
+ian.put();
+#adele = Student(key_name = 'Adele', name = 'Adele', surname = 'Ritchie', date = datetime.date(year=1991, month=09, day=30), title = 'Computer Science', grade = 3, tutor = 'Teresa', parent=teresa)
+#adele.put()
+robert = Student(key_name = 'Robert', name = 'Robert', surname = 'Langdon', date = datetime.date(year=1992, month=12, day=05), title = 'Business and Economy', grade = 2, mingrade = 1, credits = 35, average = 6.7, tutor = 'Walter', parent=walter)
+robert.put();
+debra = Student(key_name = 'Debra', name = 'Debra', surname = 'Fieguth', date = datetime.date(year=1990, month=07, day=07), title = 'Computer Science', grade = 4, tutor = 'Helen', parent=helen)
+debra.put();
+jaime = Student(key_name = 'Jaime', name = 'Jaime', surname = 'Smith', date = datetime.date(year=1993, month=03, day=01), title = 'Business and Economy', grade = 2)
+jaime.put();
+alicia = Student(key_name = 'Alicia', name = 'Alicia', surname = 'Mant', date = datetime.date(year=1989, month=04, day=14), title = 'Publicity', grade= 4, tutor = 'Carol', parent=carol)
+alicia.put();
+aviva = Student(key_name = 'Aviva', name = 'Aviva', surname = 'Webb', date = datetime.date(year=1990, month=02, day=25), title = 'Business and Economy', grade = 4, tutor = 'Carol', parent=carol)
+aviva.put();
+alex = Student(key_name = 'Alex', name = 'Alex', surname = 'Kay', date = datetime.date(year=1986, month=02, day=28), title = 'Publicity', grade = 4, mingrade = 3, credits = 72, average = 7.3, tutor = 'Walter', parent=walter)
+alex.put();
+david = Student(key_name = 'David', name = 'David', surname = 'Moon', date = datetime.date(year=1989, month=01, day=31), title = 'Marketing', grade = 3, tutor = 'John', parent=john)
+david.put();
+#erin = Student(key_name = 'Erin', name = 'Erin', surname = 'Wu', date = datetime.date(year=1992, month=08, day=19), title = 'Computer Science', grade = 4, tutor = 'John', parent=john)
+#erin.put();
+amy = Student(key_name = 'Amy', name = 'Amy', surname = 'House', date = datetime.date(year=1991, month=05, day=13), title = 'Marketing', grade = 1)
+amy.put();
+alanis = Student(key_name = 'Alanis', name = 'Alanis', surname = 'Parket', date = datetime.date(year=1988, month=07, day=22), title = 'Publicity', grade = 4, mingrade = 4, credits = 87, average = 8.3, tutor = 'Walter', parent=walter)
+alanis.put();
+denis = Student(key_name = 'Denis', name = 'Denis', surname = 'Woodman', date = datetime.date(year=1993, month=05, day=15), title = 'Publicity', grade = 1, mingrade = 1, credits = 25, average = 5.3, tutor = 'Walter', parent=walter)
+denis.put();
+
+StudentList = [sheldom, ian, robert, debra, jaime, alicia, aviva, alex, david, amy, alanis, denis]

@@ -1,0 +1,1 @@
+<html><body><h1>The query to execute:</h1><pre><p><b>SELECT * FROM Student WHERE ANCESTOR IS KEY('Tutor', 'Kay') and surname='Walter'</b><h1>Results for the query:</h1></pre></body></html>

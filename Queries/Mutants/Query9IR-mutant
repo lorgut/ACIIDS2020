@@ -1,0 +1,2 @@
+SELECT *  WHERE ANCESTOR IS KEY('Tutor', 'Kay') and surname='Walter'
+
